@@ -2,17 +2,12 @@ img {
     position: absolute;
     width: 200px;
     top: 350px;
-   
-
 }
 
-@media screen and (max-width: 900px) {
-
+@media screen and (max-width: 540px) {
     img {
         position: absolute;
         width: 150px;
         top: 200px;
-        
-
     }
 }
