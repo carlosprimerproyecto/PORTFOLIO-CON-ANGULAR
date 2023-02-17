@@ -1,42 +1,59 @@
-.encabezados h5{
-    color:rgb(88, 88, 88);
+.encabezados h5 {
+    color: rgb(88, 88, 88);
     text-align: center;
     padding: 2px;
 }
-.contenido{
-    
+
+.contenido {
+
     border: 1px solid rgb(255, 255, 255);
-    margin:10px 5px 5px 5px;
-    box-shadow: 4px 7px 13px -8px rgba(0,0,0,0.75);
+    margin: 10px 5px 5px 5px;
+    box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
     border: 1px solid white;
     background-color: rgb(230, 239, 247);
 
 }
-h3{
+
+h3 {
     text-align: center;
     background-color: rgb(88, 133, 255);
     color: aliceblue;
     border-radius: 8px;
     margin: 10px 15px 5px 15px;
-    box-shadow: 4px 7px 13px -8px rgba(0,0,0,0.75);
+    box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
     border: 1px solid white;
+}
+
+.titulos {
+    margin-left: 5px;
 }
 
 
 
 @media screen and (max-width: 500px) {
-  
-
-     h3 {
+    h3 {
         background-color: rgb(88, 133, 255);
         color: aliceblue;
         border-radius: 8px;
         margin: 10px 15px 5px 15px;
-        box-shadow: 4px 7px 13px -8px rgba(0,0,0,0.75);
+        box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
         border: 1px solid white;
-        
+
         padding-right: 30px;
-        
-        
     }
+}
+
+.lenguajes {
+    background-color: rgb(136, 136, 136);
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 5px;
+    display: flex;
+    list-style: none;
+}
+
+.lenguajes li {
+    font-weight: bold;
+    margin-right: 8px;
+    color:white;
 }

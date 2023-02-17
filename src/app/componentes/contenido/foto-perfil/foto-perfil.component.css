@@ -29,7 +29,7 @@ h3{
     img {
         position: absolute ;
         width: 150px ;
-        top: 170px ;
+        top: 300px ;
         
     }
     h3{
@@ -37,3 +37,13 @@ h3{
         color: aliceblue;
     }
 } 
+
+@media screen  and (max-width: 540px) {
+    img {
+        position: absolute ;
+        width: 150px ;
+        top:250px ;
+        
+    }
+
+}
