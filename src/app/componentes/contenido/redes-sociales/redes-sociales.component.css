@@ -1,0 +1,47 @@
+.actividades{
+    display:flex;
+    border-radius: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 10px 5px 10px 5px;
+    box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
+    border: 1px solid white;
+    background-color: rgb(210, 230, 246);
+    justify-content: center;
+
+}
+h3{
+    text-align: center;
+    background-color: rgb(88, 133, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin: 10px 15px 5px 15px;
+    box-shadow: 4px 7px 13px -8px rgba(0,0,0,0.75);
+    border: 1px solid white;
+}
+
+.actividades .pol{
+    margin:5px 2px 5px 25px;
+    border:1px solid white;
+    padding:5px;
+    border-radius: 8px;
+    box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
+}
+
+
+@media screen and (max-width: 768px){
+    .actividades{
+        display:block;
+        border-radius: 15px;
+        border: 1px solid rgb(255, 255, 255);
+        margin: 10px 5px 5px 5px;
+        box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
+        border: 1px solid white;
+        background-color: rgb(224, 238, 250);
+        justify-content:center;
+        
+        
+    }
+    .actividades .card{
+        
+    }
+}
