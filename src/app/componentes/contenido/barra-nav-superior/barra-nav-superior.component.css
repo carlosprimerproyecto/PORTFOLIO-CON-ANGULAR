@@ -12,4 +12,12 @@
 .boton{
     color: rgb(255, 255, 255);
 }
+ .screem ul {
+    display: flex;
+    list-style: none;
+       
+ }
 
+ li{
+    margin-right: 5px;
+ }
