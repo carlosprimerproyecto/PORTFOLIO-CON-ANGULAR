@@ -1,17 +1,20 @@
 <div class="contenido">
-    <h3>Experiencia Laboral</h3>
-  
+    
+    <button (click)="toggleDiv()" id="boton">EXPERIENCIA LABORAL</button>
     
     <div class="card">
       <div class="card-header fondo">
         SUBOFICIAL DE LA JEFATURA MILITAR 
         <img src="../../../../assets/Escudo_Armada_Argentina.png" alt="" width="30px" style="float: right;">
       </div>
+
+      <div [hidden]="isDivHidden">
       <div class="card-body">
         <h5 class="card-title">ARMADA ARGENTINA</h5>
-        <p class="card-text">Armada Argentina Personal de Suboficiales. Jefatura Militar de la Dirección de Educación Naval   2003 a 2010, Banda de Música de la Dirección de Educación Naval</p>
+        <p class="card-text">Armada Argentina Personal de Suboficiales. Jefatura Militar de la Dirección de Educación Naval   2003 a 2010, Banda de Música de la Dirección de Educación Naval <br>desde el año 2003 a 2010</p>
         <a href="#" class="btn btn-primary">VER MAS</a>
       </div>
+    </div>
     </div>
   
     <div class="card">
@@ -19,12 +22,15 @@
         FOTOGRAFÍA Y VIDEOFILMACIÓN
         <img src="../../../../assets/LYS LOGO.png" alt="" width="30px" style="float: right;">
       </div>
+
+      <div [hidden]="isDivHidden">
       <div class="card-body">
         <h5 class="card-title">LYS PRODUCCIONES </h5>
         <p class="card-text">Fotografía profesional, diseños, creación de contenido imagen y video “LYS Fotografía” ATENCIÓN AL PÚBLICO  Local Comercial Castelli 3229  desde 2010 a 2022</p>
         <a href="#" class="btn btn-primary">VER PÁGINA</a>
       </div>
     </div>
+  </div>
   
   
     <div class="card">
@@ -32,11 +38,15 @@
         TÉCNICO SUPERIOR EN MÚSICA
         <img src="../../../../assets/musicaaa.png" alt="" width="30px" style="float: right;">
       </div>
+
+      <div [hidden]="isDivHidden">
       <div class="card-body">
         <h5 class="card-title">CLASES PARTICULARES DE MÚSICA</h5>
-        <p class="card-text">Clases particulares de música, Piano y Guitarra</p>
+        <p class="card-text">Dictado de clases particulares de música, Piano y Guitarra<br>
+        prescenciales y mediante <a href="https://apps.google.com/meet/" target="_blank">Google Meet</a></p>
         <a href="#" class="btn btn-primary">VER MAS</a>
       </div>
     </div>
+  </div>
   
   </div>

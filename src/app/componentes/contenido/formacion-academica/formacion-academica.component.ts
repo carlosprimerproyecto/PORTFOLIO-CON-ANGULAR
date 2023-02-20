@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./formacion-academica.component.css']
 })
 export class FormacionAcademicaComponent {
+  isDivHidden = true;
+
+  toggleDiv() {
+    this.isDivHidden = !this.isDivHidden;
+  }
 
 }

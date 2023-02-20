@@ -5,6 +5,8 @@
     box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
     border: 1px solid white;
     background-color: rgb(224, 238, 250);
+    display: flex-box;
+    text-align: center;
 }
 
 
@@ -19,7 +21,7 @@
     color: rgb(255, 255, 255);
     border-radius: 8px;
     margin: 10px 15px 5px 15px;
-    box-shadow: 4px 7px 13px -8px rgba(0,0,0,0.75);
+   
     border: 1px solid white;
 }
 
@@ -46,7 +48,7 @@
         color: aliceblue;
         border-radius: 8px;
         margin: 10px 15px 5px 15px;
-        box-shadow: 4px 7px 13px -8px rgba(0,0,0,0.75);
+        
         border: 1px solid white;
        padding-bottom: 2px;
         padding-right: 30px;
@@ -54,3 +56,40 @@
         
     }
 }
+
+
+
+#boton{
+    padding:3px 10px 3px 10px;
+     
+     background-color: rgb(88, 133, 255);
+     color: aliceblue;
+     border-radius: 8px;
+     margin: 2px 15px 5px 15px;
+     box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
+     border: 1px solid white;
+     
+     
+ }
+
+ .screem ul {
+    display: flex;
+    list-style: none;
+
+    border-radius: 10px;
+    
+    
+       
+ }
+
+ .screem ul li img{
+    background-color: rgb(30, 101, 195);
+    
+    border-radius: 10px;
+
+    margin-left: 10px;
+
+    padding: 3px;
+
+    
+ }

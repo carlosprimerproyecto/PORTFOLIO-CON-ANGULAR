@@ -1,52 +1,69 @@
 <div class="contenido">
-  <h3>Formación Académica</h3>
-
+  
+  <button (click)="toggleDiv()" id="boton">Ver Formación Académica</button>
   <div class="card">
     <div class="card-header">
       <h4>Título Secundario</h4>
+      <!--ts de angular-->
+      
+      <div [hidden]="isDivHidden">
+        <!--contenido oculto-->
+        <div class="card-body oculto">
+          <h5 class="card-title">Bachiller con Orientación Docente</h5>
+          <p class="card-text">
+            • Secundario Completo. Bachiller con Orientación Docente Colegio Sagrado
+            Corazón de Jesús <br />• Provincia de Santiago del Estero
+          </p>
+          <a href="#" class="btn btn-primary">Visitar Instituto </a>
+          <a href="#" class="btn btn-primary titulos">Ver Título</a>
+          
+        </div>
+
+
+
+      </div>
     </div>
-    <div class="card-body">
-      <h5 class="card-title">Bachiller con Orientación Docente</h5>
-      <p class="card-text">
-        • Secundario Completo. Bachiller con Orientación Docente Colegio Sagrado
-        Corazón de Jesús <br />• Provincia de Santiago del Estero
-      </p>
-      <a href="#" class="btn btn-primary">Visitar Instituto </a>
-      <a href="#" class="btn btn-primary titulos">Ver Título</a>
-    </div>
+    
   </div>
 
   <div class="card">
     <div class="card-header">
       <h4>Título Terciario</h4>
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">Técnico Superior en interpretación musical</h5>
-      <p class="card-text">
-        • Terciario Completo.<br> • Técnico Superior en interpretación musical<br>•
-        Especialidad Bajo<br>• Buenos Aires Capital Federal<br>
-        •	Curso de perfeccionamiento en Instrumento Tuba, Trombonanza Edición 2019
-        <br>•	Curso Comuna de San Jerónimo Encuentro de Metales año 2019.
+      
+      <div [hidden]="isDivHidden">
 
-      </p>
-      <a href="#" class="btn btn-primary">Visitar </a>
-      <a href="#" class="btn btn-primary titulos">Título y Certificados</a>
+        <div class="card-body">
+          <h5 class="card-title">Técnico Superior en interpretación musical</h5>
+          <p class="card-text">
+            • Terciario Completo.<br> • Técnico Superior en interpretación musical<br>•
+            Especialidad Bajo<br>• Buenos Aires Capital Federal<br>
+            •	Curso de perfeccionamiento en Instrumento Tuba, Trombonanza Edición 2019
+            <br>•	Curso Comuna de San Jerónimo Encuentro de Metales año 2019.
+    
+          </p>
+          <a href="#" class="btn btn-primary">Visitar </a>
+          <a href="#" class="btn btn-primary titulos">Título y Certificados</a>
+        </div>
+      </div>
+
     </div>
+    
   </div>
 
   <div class="card">
     <div class="card-header">
-      <h4>Desarrollador web Full Stack</h4>
+      <h4>Informática e internet</h4>
     </div>
+    <div [hidden]="isDivHidden">
     <div class="card-body">
-      <h5 class="card-title">Programación y diseño de páginas Web</h5>
+      <h5 class="card-title">Programación y diseño de páginas Web. Desarrollador Web Full Stack</h5>
       <p class="card-text">
         • Argentina Programa<br />• Google Activate <br />• cursados Online
       </p>
       <a href="#" class="btn btn-primary">Visitar</a>
       <a href="#" class="btn btn-primary titulos">Ver Certificados</a>
 <!--para pantallas chicas se sale del texto-->
-      <div class="card-footer" >
+      <div class="card-footer mas_desarrollo" >
         <h5>LENGUAJES DE PROGRAMACIÓN </h5>
         <ul class="lenguajes">
           <li>HTML</li>
@@ -56,11 +73,23 @@
           <li>SQL</li>
           <li>TipeScript</li>
         </ul>
+
+
         <h5>FRAMEWORKS</h5>
         <ul class="lenguajes">
           <li>Angular</li>
           <li>Bootstrap</li>
         </ul>
+
+        <h5>WINDOWS</h5>
+        <ul class="lenguajes">
+          <li>Reparación de PC</li>
+          <li>Instalación de Windows</li>
+          <li>Formateo y recuperación de datos</li>
+        </ul>
+      </div>
+
+
       </div>
     </div>
   </div>
@@ -71,6 +100,8 @@
     <div class="card-header">
       <h4>Fotografía Profesional</h4>
     </div>
+
+    <div [hidden]="isDivHidden">
     <div class="card-body">
       <h5 class="card-title">Fotografía y videofilmación en eventos</h5>
       <p class="card-text">
@@ -80,8 +111,17 @@
       <a href="#" class="btn btn-primary">LYS Producciones </a>
       <a href="#" class="btn btn-primary titulos">Ver Trayectoria</a>
     </div>
+
+    
+
   </div>
 
-
   
+
+</div>
+
+<div [hidden]="isDivHidden">
+<button (click)="toggleDiv()" id="boton">Cerrar Formación Académica</button>
+</div>
+
 </div>

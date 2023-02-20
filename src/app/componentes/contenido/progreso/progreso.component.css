@@ -1,72 +1,108 @@
 .iconos {
-    text-align: center;
-    background-color: aliceblue;
-    border-radius: 15px;
-    border: 1px solid white;
-    box-shadow: 4px 7px 13px -8px rgba(0,0,0,0.75);
-    margin:5px
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border: 1px solid white;
 
-  }
+  margin: 5px
+}
+
+.iconos img {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+
+
+}
+
+.acomodar {
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 15px;
+  border: 1px solid white;
+
+  margin: 5px
+}
+
+.acomodar img {
+
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  margin: 0 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+
+
+}
+
+#boton {
+  padding: 3px 10px 3px 10px;
+  text-align: center;
+  background-color: rgb(88, 133, 255);
+  color: aliceblue;
+  border-radius: 8px;
+  margin: 0px 15px 0px 15px;
   
-  .iconos img {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    margin: 0 10px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 24px;
-   
-    
-  }
+  border: 1px solid white;
 
-  .acomodar {
-    text-align: center;
-    background-color: aliceblue;
-    border-radius: 15px;
-    border: 1px solid white;
-    box-shadow: 4px 7px 13px -8px rgba(0,0,0,0.75);
-    margin:5px
-
-  }
-
-  .acomodar img {
-   
-    display: inline-block;
-    width: 90px;
-    height: 40px;
-    margin: 0 10px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 24px;
-   
-    
-  }
+}
 
 
-  h5{
-    color:white;
-    text-align: center;
-    margin-top: 40px;
-  }
-  .titulo{
-    text-align: center;
-    background-color: rgb(88, 133, 255);
-    color: aliceblue;
-    border-radius: 8px;
-    margin: 10px 15px 5px 15px;
-    box-shadow: 4px 7px 13px -8px rgba(0,0,0,0.75);
-    border: 1px solid white;
+h5 {
+  color: rgb(52, 14, 154);
+  text-align: center;
+  margin-top: 40px;
+}
 
-  }
-  .corte{
-    text-align: center;
-    color: rgb(255, 255, 255);
-   
-  }
-  .contiene{
-    background-color: rgb(0, 89, 167);
-    padding:20px;
-    border-radius: 15px;
-    margin: 5px;
-  }
+h6 {
+  color: black
+}
+
+
+.titulo {
+  text-align: center;
+  background-color: rgb(88, 133, 255);
+  color: aliceblue;
+  border-radius: 8px;
+  margin: 10px 15px 5px 15px;
+
+  border: 1px solid white;
+
+}
+
+.corte {
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+}
+
+.contiene {
+
+  display: flex-box;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 20px 5px 20px 5px;
+  box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
+  border: 1px solid white;
+  background-color: rgb(230, 239, 247);
+  
+  text-align: center;
+
+}
+
+
+.transition-div {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.show-div {
+  opacity: 1;
+}

@@ -5,12 +5,15 @@
 }
 
 .contenido {
-
+display:flex-box;
+padding:10px;
+border-radius: 15px;
     border: 1px solid rgb(255, 255, 255);
-    margin: 10px 5px 5px 5px;
+    margin: 20px 5px 20px 5px;
     box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
     border: 1px solid white;
     background-color: rgb(230, 239, 247);
+    text-align: center;
 
 }
 
@@ -29,13 +32,25 @@ h3 {
 }
 
 h4{
-    background-color: rgb(95, 196, 12);
-    border-radius: 15px;
+    background-color: rgb(119, 213, 205);
+   
     padding: 0px 0px 2px 20px;
     color: white;
     border: 1px solid white;
-    box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
+    
 
+}
+
+#boton{
+   padding:3px 10px 3px 10px;
+    text-align: center;
+    background-color: rgb(88, 133, 255);
+    color: aliceblue;
+    border-radius: 8px;
+    margin: 10px 15px 5px 15px;
+    box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
+    border: 1px solid white;
+    
 }
 
 
@@ -53,15 +68,20 @@ h4{
     }
 }
 
+.mas_desarrollo{
+    margin-top: 20px;
+    box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
+}
 
 
 .lenguajes {
+    
     background-color: rgb(41, 130, 162);
     border-radius: 5px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
     margin-top: 5px;
-    display: flex;
     list-style: none;
+    padding:10px
 }
 
 .lenguajes li {
