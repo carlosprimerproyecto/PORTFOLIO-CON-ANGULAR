@@ -1,0 +1,47 @@
+.screem ul {
+  display: flex;
+  list-style: none;
+
+  border-radius: 10px;
+
+
+
+}
+
+.screem ul li img {
+  background-color: rgb(30, 101, 195);
+
+  border-radius: 10px;
+
+  margin-left: 10px;
+
+  padding: 3px;
+
+
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+textarea {
+  height: 150px;
+}
+
+.contenido {
+  
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 20px 5px 20px 5px;
+  box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
+  border: 1px solid white;
+  background-color: rgb(230, 239, 247);
+  
+
+}

@@ -1,0 +1,42 @@
+<div class="screem">
+  <!--iconos de redes y mail-->
+  <ul>
+    <li>
+      <a aria-current="page" href="#"
+        ><img src="../../../../assets/logofacebook.png" alt=""
+      /></a>
+    </li>
+    <li>
+      <a href="#"><img src="../../../../assets/logoinstagram.png" alt="" /></a>
+    </li>
+
+    <li>
+      <a href="#"><img src="../../../../assets/logowhatsapp.png" alt="" /></a>
+    </li>
+
+    <li>
+      <img src="../../../../assets/logo-Gmail-1.png" alt="" />
+    </li>
+  </ul>
+</div>
+
+<!--Formulario de Angular-->
+<div class="contenido">
+
+<form (ngSubmit)="enviar()" #formulario="ngForm">
+    <div class="form-group">
+      <label for="nombre">escribe tu nombre</label>
+      <input type="text" class="form-control" id="nombre" name="nombre" required [(ngModel)]="nombre" placeholder="Introduce tu nombre">
+    </div>
+    <div class="form-group">
+      <label for="email">tu Email por favor</label>
+      <input type="email" class="form-control" id="email" name="email" required [(ngModel)]="email">
+    </div>
+    <div class="form-group">
+      <label for="mensaje">deja tu Mensaje</label>
+      <textarea class="form-control" id="mensaje" name="mensaje" required [(ngModel)]="mensaje"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+
+</div>

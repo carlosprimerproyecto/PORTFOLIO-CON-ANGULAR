@@ -16,6 +16,8 @@ import { HabilidadesComponent } from './componenetes/contenido/habilidades/habil
 import { ProgresoComponent } from './componentes/contenido/progreso/progreso.component';
 import { CotactosComponent } from './componentes/contenido/cotactos/cotactos.component';
 import { RedesSocialesComponent } from './componentes/contenido/redes-sociales/redes-sociales.component';
+import { FormContactoComponent } from './componentes/form-contacto/form-contacto.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,11 +34,13 @@ import { RedesSocialesComponent } from './componentes/contenido/redes-sociales/r
     HabilidadesComponent,
     ProgresoComponent,
     CotactosComponent,
-    RedesSocialesComponent
+    RedesSocialesComponent,
+    FormContactoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
