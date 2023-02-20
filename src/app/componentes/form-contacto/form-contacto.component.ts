@@ -24,6 +24,8 @@ export class FormContactoComponent {
     console.log(`Nombre: ${this.nombre}`);
     console.log(`Email: ${this.email}`);
     console.log(`Mensaje: ${this.mensaje}`);
+
+   
   }
 
  

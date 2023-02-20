@@ -18,6 +18,8 @@ import { CotactosComponent } from './componentes/contenido/cotactos/cotactos.com
 import { RedesSocialesComponent } from './componentes/contenido/redes-sociales/redes-sociales.component';
 import { FormContactoComponent } from './componentes/form-contacto/form-contacto.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from "@angular/common/http";
+
 
 @NgModule({
   declarations: [
@@ -40,7 +42,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
