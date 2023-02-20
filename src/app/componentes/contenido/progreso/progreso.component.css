@@ -16,12 +16,38 @@
     text-align: center;
     line-height: 50px;
     font-size: 24px;
-    color: #333;
+   
     
   }
+
+  .acomodar {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: 1px solid white;
+    box-shadow: 4px 7px 13px -8px rgba(0,0,0,0.75);
+    margin:5px
+
+  }
+
+  .acomodar img {
+   
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+   
+    
+  }
+
+
   h5{
     color:white;
     text-align: center;
+    margin-top: 40px;
   }
   .titulo{
     text-align: center;

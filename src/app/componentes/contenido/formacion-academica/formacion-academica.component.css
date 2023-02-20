@@ -28,6 +28,16 @@ h3 {
     margin-left: 5px;
 }
 
+h4{
+    background-color: rgb(95, 196, 12);
+    border-radius: 15px;
+    padding: 0px 0px 2px 20px;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
+
+}
+
 
 
 @media screen and (max-width: 500px) {
@@ -43,8 +53,10 @@ h3 {
     }
 }
 
+
+
 .lenguajes {
-    background-color: rgb(136, 136, 136);
+    background-color: rgb(41, 130, 162);
     border-radius: 5px;
     border: 1px solid rgb(0, 0, 0);
     margin-top: 5px;
