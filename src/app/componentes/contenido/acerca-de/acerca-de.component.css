@@ -28,6 +28,7 @@
 .acerca_de_mi li {
     text-align: center;
     font-weight: bold;
+    padding:0px 20px 0px 20px
 
 }
 
@@ -35,6 +36,7 @@
     .acerca_de_mi li {
         text-align: left;
         font-weight: bold;
+        padding: 0px 10px 0px 10px;
 
     }
 
@@ -48,8 +50,7 @@
         color: aliceblue;
         border-radius: 8px;
         margin: 10px 15px 5px 15px;
-        
-        border: 1px solid white;
+                border: 1px solid white;
        padding-bottom: 2px;
         padding-right: 30px;
         
