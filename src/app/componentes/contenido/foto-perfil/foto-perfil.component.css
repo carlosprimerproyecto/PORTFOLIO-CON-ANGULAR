@@ -1,7 +1,7 @@
 img {
     position: absolute;
     width: 200px;
-    top: 350px;
+    top: 180px;
     
 }
 
@@ -10,11 +10,11 @@ h3{
     color: aliceblue;
 }
 
-@media screen  and (max-width: 540px) {
+@media  (max-width: 750px) {
     img {
         position: absolute ;
         width: 150px ;
-        top: 200px ;
+        top: 250px;
         
     }
     h3{
@@ -25,25 +25,3 @@ h3{
 
 }
 
-@media screen  and (min-width: 540px) and (max-width: 950px) {
-    img {
-        position: absolute ;
-        width: 150px ;
-        top: 300px ;
-        
-    }
-    h3{
-        margin-top: 25px;
-        color: aliceblue;
-    }
-} 
-
-@media screen  and (max-width: 540px) {
-    img {
-        position: absolute ;
-        width: 150px ;
-        top:250px ;
-        
-    }
-
-}
