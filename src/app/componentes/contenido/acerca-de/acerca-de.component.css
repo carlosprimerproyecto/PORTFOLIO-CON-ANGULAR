@@ -17,12 +17,12 @@
 
 .acerca_de_mi h3 {
     text-align: center;
-    background-color: rgb(88, 133, 255);
-    color: rgb(255, 255, 255);
+  
+    color: rgb(0, 0, 0);
     border-radius: 8px;
     margin: 10px 15px 5px 15px;
    
-    border: 1px solid white;
+   
 }
 
 .acerca_de_mi li {
@@ -73,3 +73,11 @@
      
  }
 
+ #boton:hover{
+    padding: 3px 10px 3px 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 137, 254);
+    border-radius: 8px;
+    box-shadow: 4px 7px 13px -8px rgba(43, 110, 255, 0.75);
+    border: 1px solid rgb(255, 255, 255);
+}

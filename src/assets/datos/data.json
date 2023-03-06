@@ -1,9 +1,87 @@
-
-    {
-        "quienSoy": "Mi nombre es Carlos Alfredo Gomez, Argentino nacido en el año 1981, padre de familia y esposo dedicado.",
-        "queEstudio": "Estudiante de Programación y Desarrollo de Página web.",
-        "queHago": " Fotógrafo con mas de 12 años de experiencia, Músico Profesional con tecnicatura Superior. Entusiasta Autodidacta y con ganas de seguir aprendiendo"
-
-        
-    }
-   
+[
+  {
+    "quienSoy": "Mi nombre es Carlos Alfredo Gomez, Argentino nacido en el año 1981, padre de familia y esposo dedicado.",
+    "queEstudio": "Estudiante de Programación y Desarrollo de Página web.",
+    "queHago": " Fotógrafo con mas de 12 años de experiencia, Músico Profesional con tecnicatura Superior. Entusiasta Autodidacta y con ganas de seguir aprendiendo",
+    "contacto": [
+      {
+        "celular": "+54 342 5238973"
+      },
+      {
+        "Direccion": "Provincia de Santa Fe - Patricio Cullen 6670, Argentina"
+      },
+      { "correoElectronico": "carlosalfredogomez@gmail.com" },
+      {"instagram":"@lysfotografías"},
+      {"facebook":"Carlos Alfredo Gomez"}
+    ]
+  },
+  {
+    "terciarios": [
+      "Técnico Superior en Interpretación Musical, especialidad Bajo, Bs As - Armada Argentina, Dirección de Educacion Naval",
+      "Curso de perfeccionamiento de Instrumento Tuba, Santa Fe 2019 - TROMBONANZA",
+      "Curso Comuna de San Jerónimo -Santa Fe 2019, Encuentro Nacional de Metales"
+    ],
+    "programacionDisenio": "Argentina Programa, #YO PROGRAMO Edición 2022, cursando.",
+    "cursoGoogle": [
+      "Google Activate ",
+      " Introducción al Desarrollo WEB 1 y 2 HTML CSS",
+      " Digitalización de Negocios con Google",
+      " Desarrollo de Apps Móviles"
+    ],
+    "onlineCursos": "",
+    "lenguajeProgramacion": [
+      "HTML",
+      "CSS",
+      "Java Script",
+      "Java",
+      "SQL",
+      "Tipe Script"
+    ],
+    "frameworks": ["Angular", "Bootstrap"],
+    "windows": [
+      "Reparación de PC",
+      "Instalación de Windows",
+      "Formateo y recuperación de datos"
+    ],
+    "fotoVideo": [
+      "Diseño y Producción",
+      "Captura y Edición de Videos",
+      "Edición y Retoque Fotográfico",
+      "Diseño e impresión"
+    ],
+    "tecnologias": [
+      {
+        "fotografia": [
+          "PHOTOSHOP",
+          "LIGHTROOM",
+          "PREMIERE",
+          "REAPER",
+          "CORELDRAW",
+          "OFFICE"
+        ]
+      },
+      {
+        "frameworksProgramacion": [
+          "ANGULAR",
+          "BOOTSTRAP",
+          "CSS",
+          "HTML5",
+          "JAVASCRIPT",
+          "FILEZILLA",
+          "JAVA",
+          "MYSQL"
+        ]
+      },
+      {
+        "redesSociales": [
+          "YOUTUBE",
+          "FACEBOOK",
+          "INSTAGRAM",
+          "GITHUB",
+          "BLOGGER",
+          "GOOGLE"
+        ]
+      }
+    ]
+  }
+]

@@ -62,3 +62,11 @@ h3{
      
      
  }
+ #boton:hover{
+    padding: 3px 10px 3px 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 137, 254);
+    border-radius: 8px;
+    box-shadow: 4px 7px 13px -8px rgba(43, 110, 255, 0.75);
+    border: 1px solid rgb(255, 255, 255);
+}

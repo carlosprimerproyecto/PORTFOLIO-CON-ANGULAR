@@ -1,3 +1,13 @@
+li{
+  display:inline-block;
+  list-style: none;
+  color: rgb(82, 82, 82);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 5px 10px 5px 0px
+}
+
+
 .iconos {
   text-align: center;
   background-color: rgb(255, 255, 255);
@@ -41,18 +51,6 @@
 
 }
 
-#boton {
-  padding: 3px 10px 3px 10px;
-  text-align: center;
-  background-color: rgb(88, 133, 255);
-  color: aliceblue;
-  border-radius: 8px;
-  margin: 0px 15px 0px 15px;
-  
-  border: 1px solid white;
-
-}
-
 
 h5 {
   color: rgb(52, 14, 154);
@@ -84,16 +82,14 @@ h6 {
 
 .contiene {
 
-  display: flex-box;
-  padding: 10px;
   border-radius: 15px;
-  border: 1px solid rgb(255, 255, 255);
-  margin: 20px 5px 20px 5px;
-  box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
-  border: 1px solid white;
-  background-color: rgb(230, 239, 247);
-  
-  text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 10px 5px 5px 5px;
+    box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
+    border: 1px solid white;
+    background-color: rgb(224, 238, 250);
+    display: flex-box;
+    text-align: center;
 
 }
 
@@ -105,4 +101,25 @@ h6 {
 
 .show-div {
   opacity: 1;
+}
+
+#boton{
+  padding:3px 10px 3px 10px;
+   text-align: center;
+   background-color: rgb(88, 133, 255);
+   color: aliceblue;
+   border-radius: 8px;
+   margin: 10px 15px 5px 15px;
+   box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
+   border: 1px solid white;
+   
+}
+
+#boton:hover{
+  padding: 3px 10px 3px 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(2, 137, 254);
+  border-radius: 8px;
+  box-shadow: 4px 7px 13px -8px rgba(43, 110, 255, 0.75);
+  border: 1px solid rgb(255, 255, 255);
 }

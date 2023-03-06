@@ -11,12 +11,9 @@
 }
 h3{
     text-align: center;
-    background-color: rgb(88, 133, 255);
+    
     color: rgb(255, 255, 255);
-    border-radius: 8px;
-    margin: 10px 15px 5px 15px;
    
-    border: 1px solid white;
 }
 
 .actividades .pol{
