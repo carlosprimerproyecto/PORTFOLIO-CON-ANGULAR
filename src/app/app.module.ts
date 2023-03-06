@@ -21,6 +21,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from "@angular/common/http";
 import { CirculosProgresoComponent } from './componentes/circulos-progreso/circulos-progreso.component';
 import { ProyectosComponent } from './contenido/proyectos/proyectos.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 
 @NgModule({
@@ -41,16 +42,17 @@ import { ProyectosComponent } from './contenido/proyectos/proyectos.component';
     RedesSocialesComponent,
     FormContactoComponent,
     CirculosProgresoComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    // Specify ng-circle-progress as an import
+   
     NgCircleProgressModule.forRoot({
-      // set defaults here
+   
       radius: 100,
       outerStrokeWidth: 16,
       innerStrokeWidth: 8,
