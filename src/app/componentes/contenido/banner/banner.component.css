@@ -1,17 +1,14 @@
 .banner {
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-    display: flex;
+    background-image: url(https://scontent.fsfn6-1.fna.fbcdn.net/v/t1.6435-9/85151769_2660826680637673_1634187394875916288_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeFcId441F-eFN0BDQW5C2DtmzjHfzC_2YKbOMd_ML_Zghmm3CGxj_uXlEHXnx0bUhzkVWK9Vq2TTj1qPg5e3ZBT&_nc_ohc=3jk3kY8HvzMAX9xU8C5&_nc_ht=scontent.fsfn6-1.fna&oh=00_AfAqf0eeSrquqYmQi5vslZ65HhRltWXfKg2B9gM7pjyZAA&oe=64152156);
+
     border-radius: 5px;
     margin: 5px;
     box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
-
+max-height: 300px;
 
 }
 
-.banner img {
-    height: 400px;
-    width: 100%;
-}
+
 
 @media screen and (max-width: 900px) {
     .banner img {
@@ -19,7 +16,8 @@
         width: 100%;
     }
 }
-h3{
+
+h3 {
     text-align: center;
     color: white;
 }

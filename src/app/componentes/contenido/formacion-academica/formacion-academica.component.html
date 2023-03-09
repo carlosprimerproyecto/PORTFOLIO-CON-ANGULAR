@@ -1,12 +1,13 @@
 <div class="contenido">
 
-  <button (click)="toggleDiv()" id="boton">Ver Formación Académica</button>
+ 
+  
   <div class="card">
     <div class="card-header">
       <h4>Título Secundario</h4>
       <!--ts de angular-->
 
-      <div [hidden]="isDivHidden">
+     
         <!--contenido oculto-->
         <div class="card-body oculto">
           <h5 class="card-title">Bachiller con Orientación Docente</h5>
@@ -22,13 +23,13 @@
       </div>
     </div>
 
-  </div>
+  
 
   <div class="card">
     <div class="card-header">
       <h4>Título Terciario</h4>
 
-      <div [hidden]="isDivHidden">
+      
 
         <div class="card-body">
 
@@ -44,13 +45,13 @@
 
     </div>
 
-  </div>
+  
 
   <div class="card">
     <div class="card-header">
       <h4>Informática e internet</h4>
     </div>
-    <div [hidden]="isDivHidden">
+    
       <div class="card-body">
         <h5 class="card-title">Programación y diseño de páginas Web. Desarrollador Web Full Stack</h5>
 
@@ -92,6 +93,11 @@
           </ul>
         </div>
 <h4>títulos y certificados</h4>
+
+<button (click)="toggleDiv()" id="boton">Ver títulos y certificados</button>
+
+<div [hidden]="isDivHidden">
+
         <div class="carrusel">
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -136,13 +142,16 @@
   </div>
 
 
+  <div [hidden]="isDivHidden">
+    <button (click)="toggleDiv()" id="boton">Cerrar Formación Académica</button>
+  </div>
 
   <div class="card">
     <div class="card-header">
       <h4>Fotografía Profesional</h4>
     </div>
 
-    <div [hidden]="isDivHidden">
+  
       <div class="card-body">
         <h5 class="card-title">Fotografía y videofilmación en eventos</h5>
         <u class="card-text">
@@ -159,15 +168,12 @@
 
 
 
-  </div>
+ 
 
 
 
 
 
 
-  <div [hidden]="isDivHidden">
-    <button (click)="toggleDiv()" id="boton">Cerrar Formación Académica</button>
-  </div>
+ 
 
-</div>

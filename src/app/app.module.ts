@@ -14,7 +14,7 @@ import { FormacionAcademicaComponent } from './componentes/contenido/formacion-a
 import { ExperienciaLaboralComponent } from './componentes/contenido/experiencia-laboral/experiencia-laboral.component';
 
 import { ProgresoComponent } from './componentes/contenido/progreso/progreso.component';
-import { CotactosComponent } from './componentes/contenido/cotactos/cotactos.component';
+
 import { RedesSocialesComponent } from './componentes/contenido/redes-sociales/redes-sociales.component';
 import { FormContactoComponent } from './componentes/form-contacto/form-contacto.component';
 import { FormsModule } from '@angular/forms';
@@ -22,6 +22,10 @@ import { HttpClientModule } from "@angular/common/http";
 import { CirculosProgresoComponent } from './componentes/circulos-progreso/circulos-progreso.component';
 import { ProyectosComponent } from './contenido/proyectos/proyectos.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { LysproduccionesComponent } from './lysproducciones/lysproducciones.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { VacioComponent } from './vacio/vacio.component';
 
 
 @NgModule({
@@ -38,12 +42,16 @@ import { FooterComponent } from './componentes/footer/footer.component';
     ExperienciaLaboralComponent,
     
     ProgresoComponent,
-    CotactosComponent,
+   
     RedesSocialesComponent,
     FormContactoComponent,
     CirculosProgresoComponent,
     ProyectosComponent,
-    FooterComponent
+    FooterComponent,
+    InicioComponent,
+    LysproduccionesComponent,
+    PortfolioComponent,
+    VacioComponent
   ],
   imports: [
     BrowserModule,
