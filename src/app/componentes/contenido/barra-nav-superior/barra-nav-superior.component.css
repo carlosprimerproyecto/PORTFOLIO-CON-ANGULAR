@@ -1,47 +1,4 @@
- /*.fondo_barra {
-    border-radius: 5px;
-       color: #fff;
-    padding: 10px
-}
 
-
-#logo {
-    width: 60%;
-}
-
-.boton {
-    color: rgb(255, 255, 255);
-}
-
-.screem ul {
-    margin:0px;
-    display: flex;
-    list-style: none;
-}
-
-
-img{
-    width: 40px;
-    
-}
-.busqueda{
-   
-    display:flex
-}
-
-@media (max-width: 768px) {
-    img{
-        width: 30px;
-       
-        
-    } 
-.busqueda{
-    display:flex;
-    display:none;
-}
-
-}
-*/
 .navbar-collapse{
     justify-content: flex-end;
 }

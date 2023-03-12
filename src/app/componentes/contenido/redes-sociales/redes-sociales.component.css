@@ -5,7 +5,7 @@
   box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
   border: 1px solid white;
   background-color: rgb(224, 238, 250);
-  display: flex-box;
+  display: flex;
   text-align: center;
 
 }
