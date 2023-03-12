@@ -1,31 +1,44 @@
-.boton{
-    margin: 5px;
-    background-color: rgb(5, 121, 236);
-    color: white;
-    border-radius: 10px;
-    border: 1px solid white;
-    padding:5px 8px 5px 8px;
+
+
+
+/*navegacion
+
+.boton {
+  margin: 5px;
+  background-color: rgba(5, 120, 236, 0.307);
+  color: white;
+
+  border: 1px solid rgba(255, 255, 255, 0.299);
+  padding: 5px 8px 5px 8px;
 }
-    .boton:hover {
-      margin: 0px;
-      background-color: rgb(255, 255, 255);
-      color: rgb(0, 26, 255);
-      border-radius: 10px;
-      border: 5px solid white;
-      padding:5px 8px 5px 8px;
-      box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.227);
+
+.boton:hover {
+  margin: 0px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 26, 255);
+
+  border: 5px solid white;
+  padding: 5px 8px 5px 8px;
+  box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.227);
+}
+
+.botones {
+  margin: 0px 0px 2px 20px;
+ 
+
+}
+@media (max-width: 900px) {
+
+ 
+  .boton {
+    
+    margin: 5px;
+    background-color: rgba(5, 120, 236, 0.503);
+    color: white;
+  
+    border: 1px solid rgba(255, 255, 255, 0.299);
+    padding: 5px 8px 5px 8px;
   }
 
-.botones{
-  margin-top: 2px;
-  
 
-
- 
- 
-
-}
-.container{
-  box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.227);
-  border-radius: 15px;
-}
+} */

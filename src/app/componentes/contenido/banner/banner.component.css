@@ -1,23 +1,68 @@
 .banner {
-    background-image: url(https://scontent.fsfn6-1.fna.fbcdn.net/v/t1.6435-9/85151769_2660826680637673_1634187394875916288_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeFcId441F-eFN0BDQW5C2DtmzjHfzC_2YKbOMd_ML_Zghmm3CGxj_uXlEHXnx0bUhzkVWK9Vq2TTj1qPg5e3ZBT&_nc_ohc=3jk3kY8HvzMAX9xU8C5&_nc_ht=scontent.fsfn6-1.fna&oh=00_AfAqf0eeSrquqYmQi5vslZ65HhRltWXfKg2B9gM7pjyZAA&oe=64152156);
-
+    
     border-radius: 5px;
     margin: 5px;
-    box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
-max-height: 300px;
+   ;
+    
+
 
 }
 
-
-
-@media screen and (max-width: 900px) {
-    .banner img {
-        height: 200px;
-        width: 100%;
-    }
+.banner img{
+  border-radius: 0px 100px;
+  box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75)
+  
 }
-
-h3 {
-    text-align: center;
+.boton {
+    margin: 5px;
+    background-color: rgba(5, 120, 236, 0.307);
     color: white;
-}
+  
+    border: 1px solid rgba(255, 255, 255, 0.299);
+    padding: 5px 8px 5px 8px;
+  }
+  
+  .boton:hover {
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 26, 255);
+  
+    border: 5px solid white;
+    padding: 5px 8px 5px 8px;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.227);
+  }
+  
+  .botones {
+    margin: 0px 0px 2px 5px;
+   
+  
+  }
+  
+  .incrustar {
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    
+  }
+  
+  @media (max-width: 900px) {
+  
+    .incrustar {
+      position: relative;
+      top: 0px;
+      text-align: center;
+    }
+    .boton {
+      
+      margin: 5px;
+      background-color: rgb(5, 120, 236);
+      color: white;
+    
+      border: 1px solid rgba(255, 255, 255, 0.299);
+      padding: 5px 8px 5px 8px;
+    }
+  
+  
+  }
+
+

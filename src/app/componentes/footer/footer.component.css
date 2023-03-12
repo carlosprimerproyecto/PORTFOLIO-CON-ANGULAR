@@ -31,30 +31,7 @@ footer {
   footer li i {
     margin-right: 10px;
   }
+ 
   
-  .social-media li {
-    display: inline-block;
-    margin-right: 10px;
-  }
   
-  .social-media li:last-child {
-    margin-right: 0;
-  }
-  
-  .social-media a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    color: #fff;
-    border-radius: 50%;
-    background-color: #555;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .social-media a:hover {
-    background-color: #fff;
-    color: #333;
-  }
   
