@@ -1,13 +1,7 @@
-.banner {
-    
-    border-radius: 5px;
-    margin: 5px;
-   ;
-    
 
-
+.banner{
+  padding:10px
 }
-
 .banner img{
   border-radius: 0px 100px;
   box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75)
@@ -34,6 +28,7 @@
   
   .botones {
     margin: 0px 0px 2px 5px;
+    justify-content: flex-end;
    
   
   }
@@ -41,25 +36,42 @@
   .incrustar {
     position: absolute;
     z-index: 1;
-    top: 150px;
+    top: 100px;
+    left:50px
     
   }
   
-  @media (max-width: 900px) {
+  @media (max-width: 992px) {
+
+    .banner img{
+      border-radius: 0px 10px;
+      box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75)
+      
+    }
   
     .incrustar {
       position: relative;
       top: 0px;
       text-align: center;
+      left:0px
     }
     .boton {
       
       margin: 5px;
-      background-color: rgb(5, 120, 236);
+      background-color: rgba(5, 120, 236, 0.343);
       color: white;
     
       border: 1px solid rgba(255, 255, 255, 0.299);
       padding: 5px 8px 5px 8px;
+    }
+    .boton:hover {
+      margin: 0px;
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 26, 255);
+    
+      border: 5px solid white;
+      padding: 5px 8px 5px 8px;
+      box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.227);
     }
   
   

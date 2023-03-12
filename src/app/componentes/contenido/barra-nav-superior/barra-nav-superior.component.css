@@ -1,12 +1,9 @@
-.fondo_barra {
+ /*.fondo_barra {
     border-radius: 5px;
-   
-
-
-    
-    color: #fff;
+       color: #fff;
     padding: 10px
 }
+
 
 #logo {
     width: 60%;
@@ -17,8 +14,84 @@
 }
 
 .screem ul {
+    margin:0px;
     display: flex;
     list-style: none;
-
 }
 
+
+img{
+    width: 40px;
+    
+}
+.busqueda{
+   
+    display:flex
+}
+
+@media (max-width: 768px) {
+    img{
+        width: 30px;
+       
+        
+    } 
+.busqueda{
+    display:flex;
+    display:none;
+}
+
+}
+*/
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.redes{
+ 
+    list-style-position:inside;
+    list-style:none;
+    display:flex;
+    margin: 0px 20px 0px 20px
+ }
+
+
+
+.hamburguesa{
+   border: 1px solid white;
+   display:none;
+
+}
+.login{
+    background-color: #00000024;
+    color: white;
+    margin: 15px;
+    
+}
+.navega{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 991px) {
+
+    .hamburguesa{
+        display:flex;
+        border: 1px solid white;
+      
+     }
+     .redes{
+        list-style-position: none;
+        list-style: none;
+        display:flex;
+        margin-bottom: 15px;
+        justify-content: flex-end;
+       
+     }
+     .login{
+        background-color: #00000024;
+        color: white;
+        margin: 15px;
+       
+        
+    }
+}
