@@ -8,12 +8,12 @@
   
 }
 .boton {
-    margin: 5px;
+    margin: 3px;
     background-color: rgba(5, 120, 236, 0.307);
     color: white;
-  
     border: 1px solid rgba(255, 255, 255, 0.299);
     padding: 5px 8px 5px 8px;
+    min-width: 160px;
   }
   
   .boton:hover {
@@ -60,7 +60,7 @@
       margin: 5px;
       background-color: rgba(5, 120, 236, 0.343);
       color: white;
-    
+      min-width: 390px;
       border: 1px solid rgba(255, 255, 255, 0.299);
       padding: 5px 8px 5px 8px;
     }
