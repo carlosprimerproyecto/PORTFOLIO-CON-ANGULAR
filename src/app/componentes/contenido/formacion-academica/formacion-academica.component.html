@@ -1,64 +1,190 @@
 <div class="contenido">
-  <h3>Formación Académica</h3>
+  <div class=" incrustar">
+ 
 
+    <div class="botones ">
+    
+    
+ 
+    <button class=" boton"routerLink="/">VOLVER</button>
+  </div></div>
+
+ 
+  
   <div class="card">
     <div class="card-header">
       <h4>Título Secundario</h4>
+      <!--ts de angular-->
+
+     
+        
+        <div class="card-body oculto">
+          <h5 class="card-title">Bachiller con Orientación Docente</h5>
+          <p class="card-text">
+            Secundario Completo. Bachiller con Orientación Docente Colegio Sagrado
+            Corazón de Jesús Provincia de Santiago del Estero
+          </p>
+          
+        </div>
+
+
+
+      </div>
     </div>
-    <div class="card-body">
-      <h5 class="card-title">Bachiller con Orientación Docente</h5>
-      <p class="card-text">
-        • Secundario Completo. Bachiller con Orientación Docente Colegio Sagrado
-        Corazón de Jesús <br />• Provincia de Santiago del Estero
-      </p>
-      <a href="#" class="btn btn-primary">Visitar Instituto </a>
-      <a href="#" class="btn btn-primary titulos">Ver Título</a>
-    </div>
-  </div>
+
+  
 
   <div class="card">
     <div class="card-header">
       <h4>Título Terciario</h4>
+
+      
+
+        <div class="card-body">
+          <h5 class="card-title">tecnico superior en música</h5>
+
+          <ul class="card-text">
+
+            <li *ngFor="let propiedad of miPortfolio[1].terciarios">{{ propiedad }}</li>
+
+          </ul>
+
+        </div>
+      </div>
+
     </div>
-    <div class="card-body">
-      <h5 class="card-title">Técnico Superior en interpretación musical</h5>
-      <p class="card-text">
-        • Terciario Completo. • Técnico Superior en interpretación musical<br />•
-        Especialidad Bajo<br />• Buenos Aires Capital Federal
-      </p>
-      <a href="#" class="btn btn-primary">Visitar Instituto </a>
-      <a href="#" class="btn btn-primary titulos">Ver Título</a>
+
+  
+
+  <div class="card">
+    <div class="card-header">
+      <h4>Informática e internet</h4>
     </div>
+    
+      <div class="card-body">
+        <h5 class="card-title">Programación y diseño de páginas Web. Desarrollador Web Full Stack</h5>
+
+        <ul class="card-text">
+
+
+
+
+          <li>{{miPortfolio[1].programacionDisenio}}</li>
+          <li>{{miPortfolio[1].cursoGoogle}}</li>
+
+        </ul>
+
+        
+        
+
+
+        <!--para pantallas chicas se sale del texto-->
+        <div class="card-footer mas_desarrollo">
+          <h5>LENGUAJES DE PROGRAMACIÓN </h5>
+          <ul class="lenguajes">
+
+            <li *ngFor="let propiedad of miPortfolio[1].lenguajeProgramacion">{{ propiedad }}</li>
+
+          </ul>
+
+
+          <h5>FRAMEWORKS</h5>
+          <ul class="lenguajes">
+
+            <li *ngFor="let propiedad of miPortfolio[1].frameworks">{{ propiedad }}</li>
+
+
+          </ul>
+
+          <h5>WINDOWS</h5>
+          <ul class="lenguajes">
+            <li *ngFor="let propiedad of miPortfolio[1].windows">{{ propiedad }}</li>
+          </ul>
+        </div>
+<h4>títulos y certificados</h4>
+
+<button (click)="toggleDiv()" id="boton">Ver títulos y certificados</button>
+
+<div [hidden]="isDivHidden">
+
+  <img src="../../../../assets/CERTIFICADOS Y TITULOS/Argentina Programa.jpg" class="d-block w-100" alt="...">
+              
+                <img src="../../../../assets/CERTIFICADOS Y TITULOS/goggle.jpg" class="d-block w-100" alt="...">
+             
+              
+                <img src="../../../../assets/CERTIFICADOS Y TITULOS/goggle 3.jpg" class="d-block w-100" alt="...">
+              
+              
+                <img src="../../../../assets/CERTIFICADOS Y TITULOS/goggle 2.jpg" class="d-block w-100" alt="...">
+              
+             
+                <img src="../../../../assets/CERTIFICADOS Y TITULOS/goggle 4.jpg" class="d-block w-100" alt="...">
+             
+             
+                <img src="../../../../assets/CERTIFICADOS Y TITULOS/secundario.jpg" class="d-block w-100" alt="...">
+            
+            
+                <img src="../../../../assets/CERTIFICADOS Y TITULOS/terciario.jpg" class="d-block w-100" alt="...">
+             
+           
+                <img src="../../../../assets/CERTIFICADOS Y TITULOS/Servicio Armada.jpg" class="d-block w-100" alt="...">
+             
+            
+                <img src="../../../../assets/CERTIFICADOS Y TITULOS/Trombonanza.jpg" class="d-block w-100" alt="...">
+           
+                <img src="../../../../assets/CERTIFICADOS Y TITULOS/Encuentro de metales.jpg" class="d-block w-100" alt="...">
+            
+                <img src="../../../../assets/CERTIFICADOS Y TITULOS/certificado office.jpg" class="d-block w-100" alt="...">
+            
+               
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+     
+
+
+  <div [hidden]="isDivHidden">
+    <button (click)="toggleDiv()" id="boton">Cerrar </button>
   </div>
 
   <div class="card">
     <div class="card-header">
-      <h4>Desarrollador web Full Stack</h4>
+      <h4>Fotografía Profesional</h4>
     </div>
-    <div class="card-body">
-      <h5 class="card-title">Programación y diseño de páginas Web</h5>
-      <p class="card-text">
-        • Argentina Programa<br />• Google Activate <br />• cursados Online
-      </p>
-      <a href="#" class="btn btn-primary">Visitar</a>
-      <a href="#" class="btn btn-primary titulos">Ver Certificados</a>
-<!--columnas y grid  usar-->
-      <div class="card-footer" >
-        <h5>LENGUAJES DE PROGRAMACIÓN </h5>
-        <ul class="lenguajes">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Java</li>
-          <li>SQL</li>
-          <li>TipeScript</li>
-        </ul>
-        <h5>FRAMEWORKS</h5>
-        <ul class="lenguajes">
-          <li>Angular</li>
-          <li>Bootstrap</li>
-        </ul>
+
+  
+      <div class="card-body">
+        <h5 class="card-title">Fotografía y videofilmación en eventos</h5>
+        <u class="card-text">
+          <li *ngFor="let propiedad of miPortfolio[1].fotoVideo">{{ propiedad }}</li>
+
+        </u>
+       
+
       </div>
+
+
+
     </div>
-  </div>
-</div>
+
+
+
+ 
+
+
+
+
+
+
+ 
+

@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./redes-sociales.component.css']
 })
 export class RedesSocialesComponent {
+  isDivHidden = true;
 
+  toggleDiv() {
+    this.isDivHidden = !this.isDivHidden;
+  }
 }

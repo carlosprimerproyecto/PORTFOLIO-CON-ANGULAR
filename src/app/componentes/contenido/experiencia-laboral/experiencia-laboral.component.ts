@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class ExperienciaLaboralComponent {
 
+  isDivHidden = true;
+
+  toggleDiv() {
+    this.isDivHidden = !this.isDivHidden;
+  }
+
 }

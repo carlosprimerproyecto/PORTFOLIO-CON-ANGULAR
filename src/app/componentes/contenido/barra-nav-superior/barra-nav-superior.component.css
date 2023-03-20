@@ -1,23 +1,54 @@
-.fondo_barra{
-    border-radius: 5px;
-    margin:5px;
-    box-shadow: 4px 7px 13px -8px rgba(0,0,0,0.75);
-    border: 1px solid white;
-    background-color: rgb(79, 134, 183);
-}
 
-#logo{
-    width: 60%;
+.navbar-collapse{
+    justify-content: flex-end;
 }
-.boton{
-    color: rgb(255, 255, 255);
+.redes{
+ 
+    list-style-position:inside;
+    list-style:none;
+    display:flex;
+    margin: 0px 20px 0px 20px
+ }
+
+
+
+.hamburguesa{
+   border: 1px solid white;
+   display:none;
+
 }
- .screem ul {
+.login{
+    background-color: #00000024;
+    color: white;
+    margin: 15px;
+    
+}
+.navega{
     display: flex;
-    list-style: none;
-       
- }
+    justify-content: space-between;
+}
 
- li{
-    margin-right: 5px;
- }
+
+@media (max-width: 991px) {
+
+    .hamburguesa{
+        display:flex;
+        border: 1px solid white;
+      
+     }
+     .redes{
+        list-style-position: none;
+        list-style: none;
+        display:flex;
+        margin-bottom: 15px;
+        justify-content: flex-end;
+       
+     }
+     .login{
+        background-color: #00000024;
+        color: white;
+        margin: 15px;
+       
+        
+    }
+}

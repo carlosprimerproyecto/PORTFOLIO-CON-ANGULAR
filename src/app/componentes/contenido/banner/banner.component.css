@@ -1,25 +1,81 @@
-.banner {
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-    display: flex;
-    border-radius: 5px;
-    margin: 5px;
-    box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75);
 
-
+.banner{
+  padding:0px
 }
-
-.banner img {
-    height: 400px;
-    width: 100%;
+.banner img{
+  border-radius: 0px 100px;
+  box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75)
+  
 }
-
-@media screen and (max-width: 900px) {
-    .banner img {
-        height: 200px;
-        width: 100%;
-    }
-}
-h3{
-    text-align: center;
+.boton {
+    margin: 3px;
+    background-color: rgba(5, 120, 236, 0.307);
     color: white;
-}
+    border: 1px solid rgba(255, 255, 255, 0.299);
+    padding: 5px 8px 5px 8px;
+    min-width: 160px;
+    min-height: 40px;
+  }
+  
+  .boton:hover {
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+   
+    border: 5px solid white;
+    padding: 5px 8px 5px 8px;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.227);
+  }
+  
+  .botones {
+    margin: 0px 0px 2px 5px;
+    justify-content: flex-end;
+   
+  
+  }
+  
+  .incrustar {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left:50px
+    
+  }
+  
+  @media (max-width: 992px) {
+
+    .banner img{
+      border-radius: 0px;
+      box-shadow: 4px 7px 13px -8px rgba(0, 0, 0, 0.75)
+      
+    }
+  
+    .incrustar {
+      position: relative;
+      top: 0px;
+      text-align: center;
+      left:0px
+    }
+    .boton {
+      
+      margin: 5px;
+      background-color: rgba(5, 120, 236, 0.343);
+      color: white;
+      min-width: 250px;
+      border: 1px solid rgba(255, 255, 255, 0.299);
+      padding: 5px 8px 5px 8px;
+    }
+    .boton:hover {
+      margin: 0px;
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 26, 255);
+    
+      border: 5px solid white;
+      padding: 5px 8px 5px 8px;
+      box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.227);
+    }
+  
+  
+  }
+
+

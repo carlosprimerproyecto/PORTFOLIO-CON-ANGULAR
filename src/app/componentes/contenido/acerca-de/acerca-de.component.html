@@ -1,10 +1,59 @@
+
+
 <div class="acerca_de_mi">
-    <h3>Acerca de mi</h3>
+    
     <ul>
-        <li>Estudiante de Programación y Desarrollo de Página web</li>
-        <li>Fotógrafo con mas de 12 años de experiencia</li>
-        <li>Músico Profesional con tecnicatura Superior</li>
-        <li>Entusiasta Autodidacta y con ganas de seguir aprendiendo</li>
+        <li>{{miPortfolio[0].quienSoy}}</li>
+        <li>{{miPortfolio[0].queEstudio}}</li>
+        <li>{{miPortfolio[0].queHago}}</li>
+        
         
     </ul>
+    <button type="button" class="btn btn-primary mb-5" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contáctame</button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel" style="color:black">Gracias por comunicarte</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label" style="color:black">déjanos tu contacto</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="message-text"  class="col-form-label" style="color:black">escribe tu mensaje</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+            <button type="button" class="btn btn-primary" style="color:rgb(255, 255, 255)">enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!--
+    <button (click)="toggleDiv()" id="boton">CONTÁCTAME</button>
+    <div [hidden]="isDivHidden">
+
+      <app-form-contacto></app-form-contacto>
+
+        
+    </div> -->
+
 </div>
+
+
