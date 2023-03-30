@@ -33,7 +33,7 @@
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     .acerca_de_mi li {
         text-align: left;
         font-weight: bold;
@@ -51,12 +51,24 @@
         color: aliceblue;
         border-radius: 8px;
         margin: 10px 15px 5px 15px;
-                border: 1px solid white;
+     border: 1px solid white;
        padding-bottom: 2px;
         padding-right: 30px;
-        
-        
+         
     }
+    .perfil{
+        position: relative;
+      top:0px;
+     
+    }
+}
+
+@media screen and (max-width: 993px) {
+    .perfil{
+        position: relative;
+      top:0px;
+     
+    }    
 }
 
 
@@ -81,4 +93,9 @@
     
     box-shadow: 4px 7px 13px -8px rgba(43, 110, 255, 0.75);
     border: 1px solid rgb(255, 255, 255);
+}
+
+.perfil{
+    position: relative;
+   bottom: 60px;
 }

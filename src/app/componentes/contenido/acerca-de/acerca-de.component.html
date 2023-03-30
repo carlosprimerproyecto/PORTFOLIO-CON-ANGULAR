@@ -1,15 +1,22 @@
 
 
 <div class="acerca_de_mi">
-    
+  <div class="container">
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-3 ">
+    <app-foto-perfil class="perfil"></app-foto-perfil>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-1 "></div>
+  <div class="col-xs-12 col-sm-12 col-md-8 mt-4">
     <ul>
         <li>{{miPortfolio[0].quienSoy}}</li>
         <li>{{miPortfolio[0].queEstudio}}</li>
         <li>{{miPortfolio[0].queHago}}</li>
-        
-        
-    </ul>
-    <button type="button" class="btn btn-primary mb-5" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contáctame</button>
+          </ul>
+          <button type="button" class="btn btn-primary mb-5" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contáctame</button>
+  </div></div></div>
+
+   
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">

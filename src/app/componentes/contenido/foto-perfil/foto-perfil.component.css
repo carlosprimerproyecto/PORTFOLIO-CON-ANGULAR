@@ -2,6 +2,15 @@
 
 img{
     width: 300px;
+  
+}
+
+@media (max-width: 400px) {
+    img{
+        width: 200px;
+      
+    } 
+    
 }
 
 
