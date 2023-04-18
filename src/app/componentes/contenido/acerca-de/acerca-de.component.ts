@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import {  OnInit } from '@angular/core';
-import { PortfolioService } from 'src/app/servicios/portfolio.service';
+import { persona } from 'src/app/model/persona.model';
+import { PersonaService } from 'src/app/servicios/persona.service';
+
 
 @Component({
   selector: 'app-acerca-de',
@@ -8,27 +10,16 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
   styleUrls: ['./acerca-de.component.css']
 })
 export class AcercaDeComponent implements OnInit {
+  persona: persona = new persona ("","","");
 
-  miPortfolio:any
+    constructor(public personaService: PersonaService){}
 
-        constructor(private portfolioDatos:PortfolioService){
-        }
     ngOnInit(): void{
-this.portfolioDatos.obtenerDatos().subscribe (data =>{
-console.log(data);
-
-this.miPortfolio=data;
-
-});
-    }
+this.personaService.getPersona().subscribe(data=>{this.persona = data})
+                    }
 
 
 
-  isDivHidden = true;
-
-  toggleDiv() {
-    this.isDivHidden = !this.isDivHidden;
-  }
 
  
  
